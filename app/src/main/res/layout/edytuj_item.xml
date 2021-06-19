@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_with_RV"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:minHeight="40dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_item_z_RV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/edytujLokalizacje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

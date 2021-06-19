@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zad2_141249">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Zad2_141249"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".EkranBgg"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".GryWLokacji"
+            android:screenOrientation="portrait" />
+        <activity android:name=".UsunGre"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Lokalizacje"
+            android:screenOrientation="portrait" />
+        <activity android:name=".HistoriaRankinguGry"
+            android:screenOrientation="portrait" />
+        <activity android:name=".FindResult"
+            android:screenOrientation="portrait" />
+        <activity android:name=".EdycjaGry"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DodawanieGry"
+            android:screenOrientation="portrait" />
+        <activity android:name=".GameDetails"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
